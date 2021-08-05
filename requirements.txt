@@ -1,1 +1,6 @@
-
+Flask
+asyncio
+python-juicenet
+aiohttp
+prettytable
+pytz
