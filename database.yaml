@@ -1,0 +1,90 @@
+0817081001070451338218240603:
+  last_seen_online_pst: '2021-08-22 12:42:09'
+  location: '980'
+  name: 980 - Charger 10
+  status: standby
+  user_slack_id: amine.oueslati
+0817081001070456172218240603:
+  last_seen_online_pst: '2021-08-22 12:42:09'
+  location: '980'
+  name: 980 - Charger 8
+  status: standby
+  user_slack_id: amine.oueslati
+0817081002000432447219247103:
+  last_seen_online_pst: '2021-08-22 08:14:16'
+  location: '980'
+  name: 980 - Charger 5
+  status: disconnect
+  user_slack_id: amine.oueslati
+0817081002000433740119242304:
+  last_seen_online_pst: '2021-03-11 19:42:10'
+  location: '980'
+  name: 980 - Charger 11
+  status: disconnect
+  user_slack_id: ''
+0817081002000437538119247503:
+  last_seen_online_pst: '2021-08-22 07:00:44'
+  location: Penta-Taj
+  name: Penta-Taj - Charger 3
+  status: disconnect
+  user_slack_id: ''
+0817081002000445496119245203:
+  last_seen_online_pst: '2021-08-22 12:42:04'
+  location: Penta-Taj
+  name: Penta-Taj - Charger 2
+  status: standby
+  user_slack_id: ''
+0817081002000447494119245203:
+  last_seen_online_pst: '2021-08-22 12:42:05'
+  location: Penta-Taj
+  name: Penta-Taj - Charger 1
+  status: standby
+  user_slack_id: ''
+0817081002000451339219242204:
+  last_seen_online_pst: '2021-08-22 12:42:10'
+  location: '980'
+  name: 980 - Charger 9
+  status: standby
+  user_slack_id: ''
+0910042001180508969021625627:
+  last_seen_online_pst: '2021-08-22 12:42:14'
+  location: '980'
+  name: 980 - Charger 1
+  status: standby
+  user_slack_id: ''
+0910042001180513337021625627:
+  last_seen_online_pst: '2021-08-22 12:42:19'
+  location: '980'
+  name: 980 - Charger 2
+  status: standby
+  user_slack_id: amine.oueslati
+0910042001180521487021623927:
+  last_seen_online_pst: '2021-02-08 06:01:04'
+  location: '980'
+  name: 980 - Charger 4
+  status: disconnect
+  user_slack_id: ''
+0910042001180522959021623923:
+  last_seen_online_pst: '2021-08-22 12:42:15'
+  location: '980'
+  name: 980 - Charger 7
+  status: standby
+  user_slack_id: amine.oueslati
+0910042001180523769021623927:
+  last_seen_online_pst: '2021-08-22 12:42:12'
+  location: '980'
+  name: 980 - Charger 3
+  status: standby
+  user_slack_id: ''
+0910042001180541076121629424:
+  last_seen_online_pst: '2021-08-22 12:42:13'
+  location: Joby Heights
+  name: Joby Heights - Charger 1
+  status: standby
+  user_slack_id: ''
+0910042001180557881021628124:
+  last_seen_online_pst: '2021-08-22 12:42:06'
+  location: Joby Heights
+  name: Joby Heights - Charger 2
+  status: standby
+  user_slack_id: ''
