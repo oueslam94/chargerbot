@@ -4,3 +4,6 @@ python-juicenet
 aiohttp
 prettytable
 pytz
+html-to-json
+qrcode
+pillow
