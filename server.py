@@ -12,7 +12,7 @@ import html_renderer
 
   
 app = Flask(__name__)
- 
+
 @app.route("/")
 def show_all_chargers():
   database_helper.update_chargers()
@@ -52,9 +52,9 @@ def assign_charger():
       charger_id = request.form.get("text")
 
       if (user and charger_id):
-        success = database_helper.assign_driver(user, charger_id)
+        success, charger_name = database_helper.assign_driver(user, charger_id)
         if success:
-          response = f"@{user}, you have been assigned this charger."
+          response = f"@{user}, you have been assigned {charger_name}."
     return jsonify(
       response_type='ephemeral',
       text=response)

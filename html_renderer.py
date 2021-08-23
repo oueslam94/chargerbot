@@ -4,20 +4,26 @@ import juicenet_helper
 import database_helper
 import qrcode
 import base64
+import markdown
+import markdown.extensions.fenced_code
+import gh_md_to_html
 
-
+HAMMER_AND_WRENCH_EMOJI = '\U0001F6E0'
+LIGTHNING_BOLT_EMOJI = '\U000026A1'
+GREEN_CIRCLE_EMOJI = '\U00002705'
+PLUGGED_EMOJI = '\U0001F50C'
 
 def tabulate_chargers_state(chargers, location):
   t = PrettyTable(['','Name', 'Status', 'Last Seen Online (PST)', 'User'], tablefmt="fancy_grid")
   for charger in chargers:
     if charger['status'] == 'disconnect':
-      symbol = '\U0001F6E0' #hammer and wrench   
+      symbol = HAMMER_AND_WRENCH_EMOJI #hammer and wrench   
     elif charger['status'] == 'charging':
-      symbol = '\U000026A1' #bolt
+      symbol = LIGTHNING_BOLT_EMOJI #bolt
     elif charger['status'] == 'standby':
-      symbol = '\U00002705' # green circle
+      symbol = GREEN_CIRCLE_EMOJI # green circle
     elif charger['status'] == 'plugged':
-      symbol = '\U0001F50C' # plug
+      symbol = PLUGGED_EMOJI # plug
     else:
       symbol = '❓'
     t.add_row([symbol, charger['name'], charger['status'], charger['last_seen_online_pst'], charger['user_slack_id']])
@@ -42,10 +48,17 @@ def get_location(str):
   end_of_location_index = str.find(' - ')
   return str[0:end_of_location_index]
 
+def get_emoji_definition_html():
+  return f"""
+  <h2>{PLUGGED_EMOJI}: Plugged but not charging
+  {LIGTHNING_BOLT_EMOJI}: Charging
+  {GREEN_CIRCLE_EMOJI}: Charger is available
+  {HAMMER_AND_WRENCH_EMOJI}: Charger is not reachable</h2>
+  """
 def print_chargers(keywords = None):
     yml = database_helper.load_database()
     location_to_chargers_map = create_charger_groups(yml)
-    html = ""
+    html = get_emoji_definition_html()
     if keywords:
       for keyword in keywords:
         html += tabulate_chargers_state_html(location_to_chargers_map[keyword], keyword)
@@ -117,4 +130,3 @@ def qr_codes_to_html():
         img_tag = '<img src="data:image/png;base64,{0}">'.format(data_uri)
         html += img_tag
     return html
-
