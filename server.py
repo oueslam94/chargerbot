@@ -54,7 +54,7 @@ def assign_charger():
       if (user and charger_id):
         success, charger_name = database_helper.assign_driver(user, charger_id)
         if success:
-          response = f"@{user}, you have been assigned {charger_name}."
+          response = f"@{user}, you have been assigned {charger_name}. Find more information about other Joby chargers here: {request.url_root}!"
     return jsonify(
       response_type='ephemeral',
       text=response)
