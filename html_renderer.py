@@ -7,6 +7,7 @@ import base64
 import markdown
 import markdown.extensions.fenced_code
 import gh_md_to_html
+import os
 
 HAMMER_AND_WRENCH_EMOJI = '\U0001F6E0'
 LIGTHNING_BOLT_EMOJI = '\U000026A1'
@@ -27,11 +28,12 @@ def tabulate_chargers_state(chargers, location):
     else:
       symbol = '❓'
     t.add_row([symbol, charger['name'], charger['status'], charger['last_seen_online_pst'], charger['user_slack_id']])
+  
   return t
 
 def tabulate_chargers_state_html(chargers, location):
   t = tabulate_chargers_state(chargers, location)
-  return f'<h1>{location}</h1>' + t.get_html_string() + "\n\n"
+  return f'<h1>{location}</h1>' + t.get_html_string(sortby= "Name") + "\n\n"
 
 def create_charger_groups(database):
   location_to_chargers_map = {}
@@ -76,14 +78,13 @@ def generate_assign_charger_text(charger_id):
       # Add the html components
       html +=f"""
       <div>
-           <h1>To get assigned {charger['name']}, please follow these steps:</h1>
-           <h2> 1) Copy this command:</h2>
-           <input type="text" value="/assign-charger {charger_id}" id="copyMe">
-           <button onclick="copyMyText()">Copy To Clipboard</button>
-           <h2> 2) Now go to Slack and paste it in any DM/Channel:</h2>
-           <form action="slack://open">
-           <input type="submit" value="Open Slack App" />
-           </form>
+           <h1 style="font-size:8vw;">To get assigned {charger['name']}, please follow these steps:</h1>
+           <h2 style="font-size:4vw;"> 1) Copy this command:</h2><p style="font-size:4vw;color:green" id="conf"></p>
+           <input style="font-size:4vw;" type="text" value="/assign-charger {charger_id}" id="copyMe">
+           <button style="font-size:4vw;" onclick="copyMyText()">Copy To Clipboard</button>
+           <h2 style="font-size:4vw;"> 2) Now go to Slack and paste it in any DM/Channel:</h2>
+           <button style="font-size:4vw;" onclick="location.href='slack://app?team={os.environ['TEAM_ID']}&id={os.environ['APP_ID']}'" type="button">
+         Open Slack App</button>
 
       </div>"""
       # Add the script to copy to clipboard
@@ -96,6 +97,8 @@ def generate_assign_charger_text(charger_id):
            textToCopy.select();
            //copy the text to the clipboard
            document.execCommand("copy");
+           // Alert the copied text
+           document.getElementById("conf").innerHTML = "Command Copied!";
       }
       </script>
       """

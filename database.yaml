@@ -1,104 +1,104 @@
 0817081001070451338218240603:
-  last_assigned_time_stamp_pst: '2021-08-22 15:36:57'
-  last_seen_online_pst: '2021-08-22 22:33:38'
+  last_assigned_time_stamp_pst: '2021-08-27 09:32:02'
+  last_seen_online_pst: '2021-08-29 12:29:37'
   location: '980'
   name: 980 - Charger 10
   status: standby
   user_slack_id: ''
 0817081001070456172218240603:
-  last_assigned_time_stamp_pst: '2021-08-22 15:37:02'
-  last_seen_online_pst: '2021-08-22 22:33:38'
+  last_assigned_time_stamp_pst: '2021-08-27 09:20:37'
+  last_seen_online_pst: '2021-08-29 12:29:31'
   location: '980'
   name: 980 - Charger 8
   status: standby
   user_slack_id: ''
 0817081002000432447219247103:
-  last_assigned_time_stamp_pst: '2021-08-22 08:14:16'
-  last_seen_online_pst: '2021-08-22 16:09:55'
+  last_assigned_time_stamp_pst: '2021-08-26 08:44:26'
+  last_seen_online_pst: '2021-08-29 10:20:48'
   location: '980'
   name: 980 - Charger 5
   status: disconnect
   user_slack_id: ''
 0817081002000433740119242304:
-  last_assigned_time_stamp_pst: '2021-03-11 19:42:10'
+  last_assigned_time_stamp_pst: '2021-08-28 13:16:17'
   last_seen_online_pst: '2021-03-11 19:42:10'
   location: '980'
   name: 980 - Charger 11
   status: disconnect
   user_slack_id: ''
 0817081002000437538119247503:
-  last_assigned_time_stamp_pst: '2021-08-22 15:36:57'
-  last_seen_online_pst: '2021-08-22 22:33:40'
+  last_assigned_time_stamp_pst: '2021-08-23 09:40:42'
+  last_seen_online_pst: '2021-08-29 12:29:31'
   location: Penta-Taj
   name: Penta-Taj - Charger 3
   status: standby
   user_slack_id: ''
 0817081002000445496119245203:
-  last_assigned_time_stamp_pst: '2021-08-22 15:37:15'
-  last_seen_online_pst: '2021-08-22 22:33:38'
+  last_assigned_time_stamp_pst: '2021-08-23 16:01:41'
+  last_seen_online_pst: '2021-08-29 12:29:31'
   location: Penta-Taj
   name: Penta-Taj - Charger 2
   status: standby
   user_slack_id: ''
 0817081002000447494119245203:
-  last_assigned_time_stamp_pst: '2021-08-22 15:37:03'
-  last_seen_online_pst: '2021-08-22 22:33:12'
+  last_assigned_time_stamp_pst: '2021-08-23 16:01:38'
+  last_seen_online_pst: '2021-08-29 12:29:34'
   location: Penta-Taj
   name: Penta-Taj - Charger 1
   status: standby
   user_slack_id: ''
 0817081002000451339219242204:
-  last_assigned_time_stamp_pst: '2021-08-22 15:37:07'
-  last_seen_online_pst: '2021-08-22 22:33:31'
+  last_assigned_time_stamp_pst: '2021-08-27 09:30:48'
+  last_seen_online_pst: '2021-08-29 12:29:34'
   location: '980'
   name: 980 - Charger 9
   status: standby
   user_slack_id: ''
 0910042001180508969021625627:
-  last_assigned_time_stamp_pst: '2021-08-22 15:36:58'
-  last_seen_online_pst: '2021-08-22 22:33:38'
+  last_assigned_time_stamp_pst: '2021-08-26 06:38:39'
+  last_seen_online_pst: '2021-08-29 12:29:32'
   location: '980'
   name: 980 - Charger 1
   status: standby
   user_slack_id: ''
 0910042001180513337021625627:
-  last_assigned_time_stamp_pst: '2021-08-22 15:37:14'
-  last_seen_online_pst: '2021-08-22 22:33:34'
+  last_assigned_time_stamp_pst: '2021-08-26 08:11:24'
+  last_seen_online_pst: '2021-08-29 12:29:40'
   location: '980'
   name: 980 - Charger 2
   status: standby
   user_slack_id: ''
 0910042001180521487021623927:
-  last_assigned_time_stamp_pst: '2021-02-08 06:01:04'
+  last_assigned_time_stamp_pst: '2021-08-27 09:09:36'
   last_seen_online_pst: '2021-02-08 06:01:04'
   location: '980'
   name: 980 - Charger 4
   status: disconnect
   user_slack_id: ''
 0910042001180522959021623923:
-  last_assigned_time_stamp_pst: '2021-08-22 19:59:33'
-  last_seen_online_pst: '2021-08-22 22:33:39'
+  last_assigned_time_stamp_pst: '2021-08-26 08:41:29'
+  last_seen_online_pst: '2021-08-29 12:29:39'
   location: '980'
   name: 980 - Charger 7
   status: standby
-  user_slack_id: amine.oueslati
+  user_slack_id: ''
 0910042001180523769021623927:
-  last_assigned_time_stamp_pst: '2021-08-22 15:37:02'
-  last_seen_online_pst: '2021-08-22 22:33:13'
+  last_assigned_time_stamp_pst: '2021-08-27 12:54:18'
+  last_seen_online_pst: '2021-08-29 12:29:32'
   location: '980'
   name: 980 - Charger 3
   status: standby
   user_slack_id: ''
 0910042001180541076121629424:
-  last_assigned_time_stamp_pst: '2021-08-22 15:37:05'
-  last_seen_online_pst: '2021-08-22 22:33:39'
+  last_assigned_time_stamp_pst: '2021-08-23 16:01:34'
+  last_seen_online_pst: '2021-08-29 12:29:33'
   location: Joby Heights
   name: Joby Heights - Charger 1
   status: standby
   user_slack_id: ''
 0910042001180557881021628124:
-  last_assigned_time_stamp_pst: '2021-08-22 15:37:05'
-  last_seen_online_pst: '2021-08-22 22:33:14'
+  last_assigned_time_stamp_pst: '2021-08-23 16:01:33'
+  last_seen_online_pst: '2021-08-29 12:29:40'
   location: Joby Heights
   name: Joby Heights - Charger 2
   status: standby

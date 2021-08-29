@@ -17,12 +17,14 @@
 
 If you are about to charge at a Joby EV charger, please follow these steps to let other Jobians know who to reach out to in case they need to get a hold of you.
 
-1. Once parked next to a charger and plugged in, use your smartphone to scan the QR code next to charger name, the landing page should look like this:
+1. Once parked next to a charger and plugged in, use your smartphone to scan the QR code next to charger name:
+   ![alt text](https://cdn.glitch.com/b81dd1a0-835d-48d2-bf45-82e71d46b316%2Fqr-example.png?v=1629912254642)
+2. Once Scanned the landing page should look like this:
    ![alt text](https://cdn.glitch.com/b81dd1a0-835d-48d2-bf45-82e71d46b316%2Fqr_landing_page.jpeg?v=1629667553686?raw=true)
-2. Follow the instructions on the landing page by copying the command to your clipboard, then pasting in on any channel in slack (Don't worry, nothing will be actually posted to that channel).
-3. If successful, you should see a message like this:
+3. Follow the instructions on the landing page by copying the command to your clipboard, then pasting in on any channel in slack (Don't worry, nothing will be actually posted to that channel).
+4. If successful, you should see a message like this:
    ![alt text](https://cdn.glitch.com/b81dd1a0-835d-48d2-bf45-82e71d46b316%2FScreen%20Shot%202021-08-22%20at%202.38.18%20PM.png?v=1629668311016raw=true)
-4. Your slack handle should now appear on the main landing page!
+5. Your slack handle should now appear on the main landing page!
    ![alt text](https://cdn.glitch.com/b81dd1a0-835d-48d2-bf45-82e71d46b316%2FScreen%20Shot%202021-08-22%20at%202.39.29%20PM.png?v=1629668472844raw=true)
 
 Slack handles will be automatically removed from the main landing page everyday at midnight.
